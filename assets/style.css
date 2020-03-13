@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.border-photo {
+    border: 0.5px solid #ffffff;
+    border-radius: 50%;
+}
+
+/* navigasi */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #eeeeee;
+    padding: 1rem;
+    box-shadow: 13px 12px 23px #eeeeee;
+}
+
+nav li {
+    flex : 1;
+}
+
+nav li a {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* konten */
+
+section {
+    margin-left: 25%;
+    word-break: break-word;
+    padding-top: 2rem;
+}
+
+section h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+}
+
+section h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+section p {
+    font-family: 'Roboto', sans-serif;
+}

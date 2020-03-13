@@ -1,0 +1,25 @@
+---
+
+Judul : Belajar dari Wibu
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {%include "meta.njk"%}
+  <link rel="stylesheet" type="text/css" href="../assets/style.css">
+</head>
+<body>
+    <header>
+    {% include "navigasi.njk" %}
+    </header>
+
+    <section class="content">
+        {{content | safe}}
+    </section>
+
+    {% include "footer.njk" %}
+
+</body>
+</html>
